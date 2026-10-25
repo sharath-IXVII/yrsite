@@ -11,4 +11,4 @@ meals and sleep, with streaks, badges and friends.
 - [Privacy policy](/privacy/)
 - [Terms of use](/terms/)
 
-Questions or feedback: fittiepi@gmail.com. Every message is read, and feedback decides what we improve first.
+Questions or feedback: support@fittarc.in. Every message is read, and feedback decides what we improve first.
