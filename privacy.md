@@ -21,7 +21,7 @@ So that your hard-earned levels, badges and streaks survive a lost phone or a re
 
 ## Friends and challenges
 
-If you use Friends, Cloud Firestore (Google) stores a public profile that your friends can see: your name, your best arc badge, level and XP, current and best streak, active days in the current arc and workouts this week. It also stores your friend list, people you blocked, challenges you send or join (names, exercise, target and whether each of you finished) and reports you make. Anyone you give a challenge code to can see that challenge. Nothing else (weight, meals, photos, location, health details) is shared.
+If you use Friends, Cloud Firestore (Google) stores a public profile that your friends can see: your name, your best arc badge, level and XP, current and best streak, active days in the current arc and workouts this week. It also stores your friend list, people you blocked, challenges you send or join (names, exercise, target and whether each of you finished) and reports you make. It also stores your friend code (a short random code that lets someone find you to send a friend request) and the friend requests you send or receive (the sender's name and badge title). Anyone you give a challenge code to can see that challenge. Nothing else (weight, meals, photos, location, health details) is shared.
 
 ## Data stored on your phone
 
@@ -37,7 +37,7 @@ If you write to us from the app, your email app sends the message to support@fit
 
 ## Camera during workouts
 
-The workout camera counts reps using on-device pose detection (Google ML Kit). Video is processed in memory and is never recorded, stored or uploaded.
+The workout camera counts reps using on-device pose detection (Google ML Kit). The heart-rate estimate in the Health tab uses the back camera and flash to see the light change with your pulse under your fingertip. Video and camera images are processed in memory only and are never recorded, stored or uploaded.
 
 ## Food photos
 
