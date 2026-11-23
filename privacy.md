@@ -5,7 +5,7 @@ permalink: /privacy/
 
 # FittArc privacy policy
 
-_Last updated: October 2026_
+_Last updated: November 2026_
 
 ## Summary
 
@@ -17,19 +17,27 @@ You sign in with Google. Firebase Authentication (Google) stores your email addr
 
 ## Progress backup
 
-So that your hard-earned levels, badges and streaks survive a lost phone or a reinstall, Cloud Firestore (Google) stores, under your account only: your profile (name, age, gender, height, weight, goal, activity level, diet and wake and sleep times), one entry per day (workout done, water, steps, meals logged and protein), the badges you have earned, the date you started and your water goal. Only you can read it; it is used to restore your progress when you sign in on a new phone, and nothing else. It is deleted when you delete your account.
+So that your hard-earned levels, badges and streaks survive a lost phone or a reinstall, Cloud Firestore (Google) stores, under your account only: your profile (name, age, gender, height, weight, goal, activity level, diet and wake and sleep times), one entry per day (workout done, water, steps, meals logged and protein), the badges you have earned, the date you started, your water goal, your bonus XP, a summary of the runs, walks and rides you tracked (type, date, time, distance and split times, never the route) and the waist, neck and hip measurements you typed into the body check. So that a new phone carries on where the old one stopped, it also stores the plans you built: your 30-day challenge progress and workout history, your My Day plan and templates, and the workout routines you made. Only you can read it; it is used to restore your progress when you sign in on a new phone, and nothing else. It is deleted when you delete your account.
 
 ## Friends and challenges
 
 If you use Friends, Cloud Firestore (Google) stores a public profile that your friends can see: your name, your best arc badge, level and XP, current and best streak, active days in the current arc and workouts this week. It also stores your friend list, people you blocked, challenges you send or join (names, exercise, target and whether each of you finished) and reports you make. It also stores your friend code (a short random code that lets someone find you to send a friend request) and the friend requests you send or receive (the sender's name and badge title). Anyone you give a challenge code to can see that challenge. Nothing else (weight, meals, photos, location, health details) is shared.
 
+## Clubs
+
+If you create or join a club, Cloud Firestore stores the club's name, description and type, who started it, its members' names, and the text messages sent in it. Every signed-in user can see a club's name and description; only members can read its chat. Messages are text only (no photos or links). They are shown for 24 hours and then deleted from our servers, usually the next time the sender or the club's owner opens FittArc, and in any case when the sender deletes their account. You can delete your own messages, leave a club, report a message or block a person at any time; the person who started a club can remove messages and members. Club admins can set challenges such as "Run 8 km", optionally with a start point (a location). When you do a challenge, FittArc uses your phone's location only while it runs, to measure the distance, also with the screen off (a notification shows it is on). Your route stays on your phone; only your name, time and distance are shared with the club for the ranking.
+
+## Teams and snaps to friends
+
+If you join a team streak, Cloud Firestore stores the team name, its members' names and, for each day, which members hit their goals (nothing else about the day). If you send a food snap to friends inside FittArc, a small picture of the snap and a short caption are stored for the friends you pick. It is shown for 24 hours and then deleted from our servers, usually the next time you open FittArc, and in any case when you delete your account. The route of a run, walk or ride you track on your own stays on your phone.
+
 ## Data stored on your phone
 
-Alarms, routines, your My Day plan, weigh-ins, weight goal, saved foods, meal photos and the health readings you record in the Health tab (blood pressure, blood sugar, pulse and oxygen) are stored only on your device and are not backed up, so they are not restored on a new phone. Your progress backup (above) is kept in your account. Uninstalling the app or using "Reset data on this device" removes what is on the phone.
+Alarms, weigh-ins, weight goal, saved foods, meal photos, and the pulse, breathing and game records you save in the Health tab are stored only on your device and are not backed up, so they are not restored on a new phone. Your progress backup (above) is kept in your account. Uninstalling the app or using "Reset data on this device" removes what is on the phone.
 
 ## Health readings
 
-The Health tab keeps the readings you type in, such as blood pressure or blood sugar, and sorts them by standard medical ranges. FittArc does not measure them and does not diagnose anything. They stay on your phone, are never uploaded, and are removed when you delete your account or reset data. If you choose "Share a summary with my doctor", the text goes only to the app you pick.
+The Health tab keeps the resting pulse you save from the camera heart-rate estimate, your breathing-exercise minutes, breathing-rate checks (you tap each breath), and your mind-game scores (reaction, memory, focus, colour). These are approximate wellness records for your own tracking, not medical measurements, and FittArc does not diagnose anything. They stay on your phone, are never uploaded, and are removed when you delete your account or reset data.
 
 ## Feedback emails
 
@@ -45,7 +53,9 @@ If you choose to connect a watch, FittArc can read its live heart rate over Blue
 
 ## Food photos
 
-Food scanning happens entirely on your phone using a built-in recognition model. Meal photos are never uploaded; they are kept only on your phone, next to the meal you logged.
+Food scanning happens entirely on your phone using a built-in recognition model. Meal photos are kept only on your phone, next to the meal you logged.
+
+**Help improve food recognition (optional, off by default).** If you turn this on in the food scanner, each meal you log sends a small cut-out (at most 256 pixels) of every dish on the plate, with the dish name you confirmed and how sure the app was, to Cloud Firestore (Google), linked to your account id. We use these only to train FittArc's food recognition. The full photo, your location and any other details are never sent. You can turn it off at any time. Samples you shared are deleted when you delete your account; to have them deleted without deleting your account, write to support@fittarc.in.
 
 ## Steps, activity and location
 
@@ -57,7 +67,7 @@ Alarms and reminders are scheduled locally on your phone. No notification conten
 
 ## Deleting your data
 
-Use "Delete account" in your profile (tap your picture on Today) to permanently delete your sign-in, your progress backup, your Friends profile, friend list and challenges, and all FittArc data on the phone. You can also email us to have your account deleted.
+Use "Delete account" in your profile (tap your picture on Today) to permanently delete your sign-in, your progress backup, your Friends profile, friend list and challenges, your club memberships and messages (and clubs you started), any food samples you shared, and all FittArc data on the phone. You can also email us to have your account deleted.
 
 ## Children
 
